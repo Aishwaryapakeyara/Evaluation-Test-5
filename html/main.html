@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel = "stylesheet" href = "/css/stylesheet.css"/>
+    <script src = "/jquery/jquery.min.js"></script>
+    <script src = "/jquery/jquery.validate.min.js"></script>
+    <script src = "/jquery/jquery.inputmask.min.js"></script>
+    <script src = "/jquery/customMethod.js"></script>
+    <script src = "/jquery/jquery.js"></script>
+
+  </head>
+  <body>
+    <div id = "gradient-background">
+      <div id = "white-div">
+        <div id = "form-div">
+          <form id = "myForm" name = "myform">
+            <div><img src ="/Images/cart.jpeg" id = "header_image"></div>
+            <div><h1 id = "heading">Product Order Form</h1></div>
+            <hr id = "hr"><br>
+            <p>Products</p>
+            <div id = "search">
+            <input id = "search_input" type = "search" class = "form_input"  placeholder="search">
+            <img src = "/Images/search.png" id = "search_img">
+          </div><br>
+          <div class = "items item_hover" id = "item1">
+            <input type = "checkbox" class = "item_checkbox" name = "item" id = "item1_checkbox" value = "30.00">
+            <label for = "item1_checkbox">
+              <div class = "item_set">
+                <img src = "/Images/Screen Shot 2020-12-08 at 10.47.46.png" id = "item_image1" class = "item_image">
+                <h4 class = "item_price" id = "price1">$30.00</h4>
+                <p class = "item_text line1" id = "p1"><b>White T-Shirt</b></p><p id="p2" class = "item_text line2">Simple Design. 100% Organic Cotton.</p>
+                <div class = "description"> 
+                  <label for = "qnty1">Quantity</label>
+                  <select name = "item_quantity_select" id = "qnty1" class = "item_select">
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "4">4</option>
+                    <option value = "5">5</option>
+                    <option value = "6">6</option>
+                    <option value = "7">7</option>
+                    <option value = "8">8</option>
+                    <option value = "9">9</option>
+                    <option value = "10">10</option>
+                  </select>&nbsp;
+                  <label for = "size1">Size</label>
+                  <select name="item_size_select" id="size1" class = "item_select" >
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                    <option value="XXXL">XXXL</option>
+                  </select>
+                  
+                </div>
+              </div>
+            </label>
+          </div>
+          <hr class = "item_hr">
+          <div class = "items item_hover" id = "item2">
+            <input type = "checkbox" class = "item_checkbox" name = "item" id = "item2_checkbox" value = "100.00">
+            <label for = "item2_checkbox">
+              <div class = "item_set">
+                <img src = "/Images/t-shirt-3995093_1280.png" id = "item_image2" class = "item_image">
+                <h4 class = "item_price" id = "price2">$100.00</h4>
+                <p class = "item_text line1" id = "p3"><b>Sweatshirt</b></p><p id="p4" class = "item_text line2">Smooth Rainbow Colours</p>
+                <div class = "description"> 
+                  <label for = "qnty2">Quantity</label>
+                  <select name = "item_quantity_select" id = "qnty2" class = "item_select">
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "4">4</option>
+                    <option value = "5">5</option>
+                    <option value = "6">6</option>
+                    <option value = "7">7</option>
+                    <option value = "8">8</option>
+                    <option value = "9">9</option>
+                    <option value = "10">10</option>
+                  </select>&nbsp;
+                  <label for = "Colour">Color</label>
+                  <select name = "item_color_select" id = "Colour" class = "item_select">
+                    <option value = "Red">Red</option>
+                    <option value = "Blue">Blue</option>
+                    <option value = "Green">Green</option>
+                    <option value = "Black">Black</option>
+                    <option value = "Magenta">Magenta</option>
+                  </select>&nbsp;
+                  <label for = "size2">Size</label>
+                  <select name="item_size_select" id="size2" class = "item_select" >
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                    <option value="XXXL">XXXL</option>
+                  </select>
+                  
+                </div>
+              </div>
+            </label>
+          </div>
+          <hr class = "item_hr">
+          <div class = "items item_hover" id = "item3">
+            <input type = "checkbox" class = "item_checkbox" name = "item" id = "item3_checkbox" value = "125.00">
+            <label for = "item3_checkbox" id = "item3-label">
+              <div class = "item_set">
+                <img src = "/Images/shoes.png" id = "item_image3" class = "item_image">
+                <h4 class = "item_price" id = "price3">$125.00</h4>
+                <p class = "item_text line1" id = "p5"><b>Shoes</b></p><p id="p6" class = "item_text line2">Fabric Shoes with grey sqaures</p>
+                <div class = "description"  id = "description3"> 
+                  <label for = "qnty3">Quantity</label>
+                  <select name = "item_quantity_select" id = "qnty3" class = "item_select">
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "4">4</option>
+                    <option value = "5">5</option>
+                    <option value = "6">6</option>
+                    <option value = "7">7</option>
+                    <option value = "8">8</option>
+                    <option value = "9">9</option>
+                    <option value = "10">10</option>
+                  </select>&nbsp;
+                  <label for = "size3">Size</label>
+                  <select name="item_size_select" id="size3" class = "item_select" >
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                    <option value="XXXL">XXXL</option>
+                  </select>
+                </div>
+              </div>
+            </label>
+          </div>
+          <hr class = "item_hr">
+          <div id = "total">
+            <h4 id = "total_calc">Total</h4>
+            <h4><div id = "value"></div></h4>
+          </div>
+          <hr class = "item_hr"><br>
+          <div id = "credit_card">
+          <h3>Credit Card</h3>
+          <input type="text" name = "name3" class = "form_input" id = "fname1" placeholder="First Name">&nbsp;&nbsp;<input name = "name4" type = "text" id = "lname1" class = "form_input" placeholder="Last Name">
+        </div><br><br>
+        <div class = "formdetails">
+        <div id = "fullname" class = "details">
+          <div><p class = "required">Full Name</p></div>
+        <div id="name-input"><input name = "name1" type="text" id = "fname" class = "form_input">&nbsp;
+          <input type="text" name = "name2" id = "lname" class = "form_input"><br>
+          <label for = "fname" id = "label1">First Name</label>
+          <label for = "lname" id = "label2">Last Name</label></div>
+        </div><br>
+        <div id = "email" class="details">
+          <div><p class = "required">Email</p></div>
+          <input name = "mail_id" type="email" placeholder="ex:myname@example.com" id = "email_input" class = "form_input">
+        </div><br>
+        <div id = "num" class="details">
+          <div><p class = "required">Contact Number</p></div>
+          <input type = "tel" name = "phone_num" placeholder="(000) 000-0000" id = "num_input" class = "form_input">
+        </div><br>
+        <div class = "details" id = "address_div">
+          <p class = "required">Address </p>
+      <div class = "row">
+              <input type="text" class = "form_input" id="Address" name = "StreetAddress">
+              <div><label for = "address">Street Address</label></div><br>
+              <input type="text" id="Address2" class = "form_input" name = "Address2" >
+              <div><label for = "address">Street Address Line 2</label></div><br>
+              
+              <input type="text" id="Address3" name = "Address3" class = "form_input" >&nbsp;
+              <input type="text" id="Address4" name = "Address4" class = "form_input" >
+              <div><label for = "address">City</label></div>
+              <div><label for = "address" id = "state_label">State/Province</label></div><br><br>
+
+              <input type="text" id="Address5" name = "Address5" class = "form_input">
+              <div><label for = "address">Postal/ZIP code</label></div>&nbsp;
+              <select class = "item_select" name = "cntry1" id = "countries">
+                <option value = "">Please Select</option>
+                <option value = "Argentina">Argentia</option>
+                <option value = "Bangladesh">Bangladesh</option>
+                <option value = "Belgium">Belgium</option>
+                <option value = "China">China</option>
+                <option value = "Denmark">Denmark</option>
+                <option value = "Ethopia">Ethopia</option>
+                <option value = "France">France</option>
+                <option value = "India">India</option>
+                <option value = "Japan">Japan</option>
+                <option value = "USA">USA</option>
+              </select>
+              <label for = countries id = "cnt"> Country</label>
+      </div>
+      </div><br>
+      <div id = "gift" class = "details">
+        <p class = "required"> Send Gift</p>
+        <div id = "yes_div">
+        <input type="radio" id="yes" class = "big" name="send_gift" value="yes">
+        <label for = "yes">Yes</label>
+      </div><br>
+      <div id = "no_div">
+        <input type="radio" id="no" class = "big" name="send_gift" value="no">
+        <label for = "no">No</label>
+      </div><br>
+      </div>
+      <div id = "hide_div">
+      <div id = "fullname" class = "details">
+        <div><p class = "required">Full Name</p></div>
+      <div id="name1-input"><input type="text" name = "name5" id = "fname3" class = "form_input">&nbsp;
+        <input type="text" id = "lname3" class = "form_input" name = "name6"><br>
+        <label for = "fname" id = "label1">First Name</label>
+        <label for = "lname" id = "label2">Last Name</label></div>
+      </div><br>
+      <div id = "num1" class="details">
+        <div><p class = "required">Contact Number</p></div>
+        <input type = "tel" placeholder="(000) 000-0000" name = "phone_num1" id = "num1_input" class = "form_input">
+      </div><br>
+      <div class = "details" id = "add_conf">
+        <label for = "address_conf"><p>Same as billing address?</p></label>
+        <div id = "add_checkbox">
+        <input type = "checkbox" id = "address_conf" >
+        <label id = "yes_label">Yes</label></div></div>
+        <div id = "shipping_add" class = "details">
+          <p class = "required"> Shipping Address </p>
+      <div class = "row1">
+              <input type="text" class = "form_input" id="Address1" name = "Address11">
+              <div><label for = "address">Street Address</label></div><br>
+              <input type="text" id="Address12" class = "form_input" name = "Address12" >
+              <div><label for = "address">Street Address Line 2</label></div><br>
+              
+              <input type="text" id="Address13" name = "Address13" class = "form_input" >&nbsp;
+              <input type="text" id="Address14" name = "Address14" class = "form_input" >
+              <div><label for = "address">City</label></div>
+              <div><label for = "address" id = "state_label1">State/Province</label></div><br><br>
+
+              <input type="text" id="Address15" name = "Address15" class = "form_input">
+              <div><label for = "address">Postal/ZIP code</label></div>
+              <select class = "item_select" id = "countries1" name = "cntry2">
+                <option value = "">Please Select</option>
+                <option value = "Argentina">Argentia</option>
+                <option value = "Bangladesh">Bangladesh</option>
+                <option value = "Belgium">Belgium</option>
+                <option value = "China">China</option>
+                <option value = "Denmark">Denmark</option>
+                <option value = "Ethopia">Ethopia</option>
+                <option value = "France">France</option>
+                <option value = "India">India</option>
+                <option value = "Japan">Japan</option>
+                <option value = "USA">USA</option>
+              </select>
+              <label for = countries id = "cnt1"> Country</label></div>
+      </div>
+      </div><br>
+      <div class = "details" id = 'add_info'>
+      <p>Additional Requests</p>
+      <textarea id = "additional_info" rows="10" cols="60" placeholder = "Type here.."></textarea></div>
+      </div><hr class = "item_hr">
+      <input type="submit" value="Order Now" id = "submit_btn">
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
