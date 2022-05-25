@@ -1,0 +1,471 @@
+body{
+  background-color: #ECEDF3;
+  position: relative;
+}
+#gradient-background{
+  width:850px;
+  position: absolute;
+  background-image: linear-gradient(to right, #333333, #f1473a);
+  left : 300px;
+  top:70px;
+}
+#white-div{
+  background-color: white;
+  width:830px;
+  margin:10px;
+  /* padding-left:60px; */
+}
+#header_image{
+  width:50px;
+  height:50px;
+  margin-left: 35px;
+}
+#heading{
+  position: absolute;
+  left:140px;
+  top:0px;
+  color: #2C3345;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#form-div
+{
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#hr{
+  background-color: black;
+
+}
+form p{
+ padding-left: 45px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: medium;
+ color: #333333;
+}
+#search_input{
+  margin-left: 490px;
+  background-color: #ECEDF3;
+  width:200px
+}
+.form_input{
+  height: 35px;
+  width:420px;
+  padding:5px;
+}
+#lname{
+  width:200px;
+}
+#fname{
+  width:200px;
+}
+#search_input:hover{
+  border-color: rgb(61, 61, 190);
+  background-color: #ECEDF3;
+} 
+#search_img{
+  height: 25px;
+  width:25px;
+  position: absolute;
+  top:170px;
+  left:690px;
+}
+.item_hover:hover{
+  background-color: #ECEDF3;
+}
+.item_image{
+  position: absolute;
+  left:120px;
+  border-radius: 5%;
+}
+#item_image1{
+  height: 88px;
+  width: 88px;
+
+} 
+#item_image2{
+  height: 95px;
+  width: 95px;
+} 
+#item_image3{
+  height: 95px;
+  width: 95px;
+} 
+.item_checkbox{
+  height: 20px;
+  width: 20px;
+  margin-top: 20px;
+  margin-left: 45px;
+}
+#address_conf{
+  height: 20px;
+  width: 20px;
+}
+.items {
+  display: flex;
+}
+.item_set
+{
+  padding-left: 10px;
+  width:600px;
+}
+.item_text{
+  margin-left:60px;
+}
+.line1{
+  padding-top:10px;
+  margin-bottom: 0px;
+}
+.line2{
+  margin-top:0px;
+  color:#9e9c9c;
+  font-size: 15px;
+}
+.item_select{
+  height:30px;
+}
+.description{
+  margin-left: 110px;
+}
+.item_price{
+  margin-left: 440px;
+}
+#price1{
+  position: absolute;
+  left:190px;
+  top:200px;
+}
+#price2{
+  position: absolute;
+  left:190px;
+  top:320px;
+}
+#price3{
+  position: absolute;
+  left:190px;
+  top:445px;
+}
+.item_hr{
+  border-top: 1px dashed #e4e4e4;
+  color: #e4e4e4;
+}
+#p5{
+  position: absolute;
+  top:450px;
+}
+#p6{
+  position: absolute;
+  top:496px;
+}
+#description3{
+  position: absolute;
+  top:540px;
+}
+#item3-label{
+  height: 100px;
+}
+#total{
+  height: 40px;
+}
+#total_calc{
+  position: absolute;
+  left:550px;
+  top:560px;
+}
+#value{
+  position: absolute;
+  left:650px;
+  top:580px;
+}
+#credit_card{
+  padding-left: 45px;
+}
+
+.details:focus-within {
+  background: #FFFFE0;
+}
+.formdetails input:hover{
+  border-color: #9abde3;
+}
+.formdetails input:focus{
+  outline: solid 3px #9abde3;
+}
+
+.details{
+  height: 70px;
+  padding-top: 10px;
+}
+#name-input{
+  margin-left: 300px;
+  margin-top: -3em;
+}
+#label2{
+  margin-left: 150px;
+}
+.required::after{
+  content: "*";
+  color:red;
+}
+#email_input{
+  position: absolute;
+  left:340px;
+  top:940px;
+  width: 420px;
+}
+#num_input{
+  position: absolute;
+  left:340px;
+  top:1030px;
+  width: 420px;
+}
+#address_div{
+  height: 360px;
+}
+.row{
+  position: absolute;
+  left:340px;
+  top:1150px;
+}
+#Address3{
+  width:200px;
+}
+#Address4{
+  width:200px;
+}
+#Address5{
+  width:200px;
+}
+#state_label{
+  position: absolute;
+  left:230px;
+  top:220px;
+}
+#fname1{
+  width:200px;
+}
+#lname1{
+  width:200px;
+}
+#countries{
+  position: absolute;
+  left:230px;
+  top:275px;
+  height: 50px;
+  padding:5px;
+  width: 200px;
+}
+#cnt{
+  position: absolute;
+  left:240px;
+  top:325px;
+}
+#yes_div{
+  position: absolute;
+  left:340px;
+  top:1530px;
+}
+#no_div{
+  position: absolute;
+  left:540px;
+  top:1530px;
+}
+#fname3{
+  width:200px;
+}	
+#lname3{
+  width:200px;
+}
+.big{ 
+  width: 1em; 
+  height: 1em;
+ }
+ #name1-input{
+  position: absolute;
+  left:340px;
+  top:1600px;
+}
+#num1_input{
+  position: absolute;
+  left:340px;
+  top:1690px;
+  width: 420px;
+}
+#yes_label{
+  font-size: 20px;
+}
+#add_checkbox{
+  position: absolute;
+  left: 320px;
+  top:1790px;
+}
+.row1{
+  position: absolute;
+  left:340px;
+  top:1880px;
+}
+ #Address13{
+  width:200px;
+}
+#Address14{
+  width:200px;
+}
+#Address15{
+  width:200px;
+}
+#state_label1{
+  position: absolute;
+  left:230px;
+  top:219px;
+}
+#countries1{
+  position: absolute;
+  left:230px;
+  top:275px;
+  height: 50px;
+  padding:5px;
+  width: 200px;
+}
+#cnt1{
+  position: absolute;
+  left:240px;
+  top:325px;
+} 
+#shipping_add{
+  height: 360px;
+}
+#additional_info{
+ margin-left: 300px;
+ margin-top:-3em;
+}
+#add_info{
+  height: 200px;
+}
+#submit_btn{
+  background-color: #16AA52;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 300px;
+  margin-bottom: 50px;
+}
+.error{
+  color: red;
+}
+#fname1-error{
+  position: absolute;
+  top:790px;
+  left:90px;
+}
+#lname1-error{
+  position: absolute;
+  top:790px;
+  left:310px;
+}
+#fname-error{
+  position: absolute;
+  top:900px;
+  left:340px;
+}
+#lname-error{
+  position: absolute;
+  top:900px;
+  left:570px;
+}
+#email_input-error{
+  position: absolute;
+  top:990px;
+  left:340px;
+}
+#num_input-error{
+  position: absolute;
+  top:1080px;
+  left:340px;
+}
+#Address-error{
+  position: absolute;
+  top:50px;
+  left:100px;
+}
+#Address2-error{
+  position: absolute;
+  top:137px;
+  left:150px;
+}
+#Address3-error{
+  position: absolute;
+  top:220px;
+  left:30px;
+}
+#Address4-error{
+  position: absolute;
+  top:237px;
+  left:225px;
+}
+#Address5-error{
+  position: absolute;
+  top:340px;
+  left:0px;
+}
+#countries-error{
+  position: absolute;
+  top:340px;
+  left:240px;
+}
+#send_gift-error{
+  position: absolute;
+  top:2px;
+  left:260px;
+  width:140px;
+}
+#fname3-error{
+  position: absolute;
+  top:65px;
+  left:0px;
+}
+#lname3-error{
+  position: absolute;
+  top:65px;
+  left:225px;
+}
+#num1_input-error{
+  position: absolute;
+  left:340px; 
+}
+#Address1-error{
+  position: absolute;
+   top:49px;
+  left:100px;
+}
+#Address12-error{
+  position: absolute;
+   top:135px;
+  left:160px;
+}
+#Address13-error{
+  position: absolute;
+  top:220px;
+  left:50px;
+}
+#Address14-error{
+  position: absolute;
+  top:235px;
+  left:230px;
+}
+#Address15-error{
+  position: absolute;
+  top:340px;
+  left:0px;
+}
+#countries1-error{
+  position: absolute;
+  top:340px;
+  left:240px;
+}
+#item-error{
+  position: absolute;
+  font-size: large;
+  top:210px;
+  left:80px;
+}
