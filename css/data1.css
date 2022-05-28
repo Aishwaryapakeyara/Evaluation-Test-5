@@ -1,0 +1,19 @@
+table, td, th {
+  border: 1px solid;
+}
+
+table {
+  width:400px;
+  border-collapse: collapse;
+  padding:80px;
+  text-align: center;
+}
+th{
+  background-color: rgb(204, 224, 234);
+}
+.heading{
+  background-color: rgb(166, 236, 166);
+  font-size: large;
+}
+
+

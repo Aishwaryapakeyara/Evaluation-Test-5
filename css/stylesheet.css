@@ -124,6 +124,9 @@ form p{
 .item_select{
   height:30px;
 }
+.item_select_m{
+  height:30px;
+}
 .description{
   margin-left: 110px;
 }
@@ -353,6 +356,12 @@ form p{
 .error{
   color: red;
 }
+.error-div{
+  background-color: #ffbaba;
+}
+.error-input{
+  outline: solid 2px red;
+}
 #fname1-error{
   position: absolute;
   top:790px;
@@ -469,3 +478,12 @@ form p{
   top:210px;
   left:80px;
 }
+.blue{
+  background-color:#F5F7FD; 
+}
+input:invalid{
+  background-color: #ffbaba;
+}
+
+
+
