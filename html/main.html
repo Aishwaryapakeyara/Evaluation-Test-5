@@ -13,7 +13,7 @@
     <div id = "gradient-background">
       <div id = "white-div">
         <div id = "form-div">
-          <form id = "myForm" name = "myform">
+          <form id = "myForm" name = "myform" action="data.html" method = "get" target="_blank">
             <div><img src ="/Images/cart.jpeg" id = "header_image"></div>
             <div><h1 id = "heading">Product Order Form</h1></div>
             <hr id = "hr"><br>
@@ -31,7 +31,7 @@
                 <p class = "item_text line1" id = "p1"><b>White T-Shirt</b></p><p id="p2" class = "item_text line2">Simple Design. 100% Organic Cotton.</p>
                 <div class = "description"> 
                   <label for = "qnty1">Quantity</label>
-                  <select name = "item_quantity_select" id = "qnty1" class = "item_select">
+                  <select name = "item_quantity_select" id = "qnty1" class = "item_select i_select">
                     <option value = "1">1</option>
                     <option value = "2">2</option>
                     <option value = "3">3</option>
@@ -44,7 +44,7 @@
                     <option value = "10">10</option>
                   </select>&nbsp;
                   <label for = "size1">Size</label>
-                  <select name="item_size_select" id="size1" class = "item_select" >
+                  <select name="item_size_select" id="size1" class = "item_select_m i_select" >
                     <option value="XS">XS</option>
                     <option value="S">S</option>
                     <option value="M">M</option>
@@ -68,8 +68,8 @@
                 <p class = "item_text line1" id = "p3"><b>Sweatshirt</b></p><p id="p4" class = "item_text line2">Smooth Rainbow Colours</p>
                 <div class = "description"> 
                   <label for = "qnty2">Quantity</label>
-                  <select name = "item_quantity_select" id = "qnty2" class = "item_select">
-                    <option value = "1">1</option>
+                  <select name = "item_quantity_select" id = "qnty2" class = "item_select i_select">
+                    <option value = "1" >1</option>
                     <option value = "2">2</option>
                     <option value = "3">3</option>
                     <option value = "4">4</option>
@@ -81,7 +81,7 @@
                     <option value = "10">10</option>
                   </select>&nbsp;
                   <label for = "Colour">Color</label>
-                  <select name = "item_color_select" id = "Colour" class = "item_select">
+                  <select name = "item_color_select" id = "Colour" class = "item_select_m i_select">
                     <option value = "Red">Red</option>
                     <option value = "Blue">Blue</option>
                     <option value = "Green">Green</option>
@@ -89,7 +89,7 @@
                     <option value = "Magenta">Magenta</option>
                   </select>&nbsp;
                   <label for = "size2">Size</label>
-                  <select name="item_size_select" id="size2" class = "item_select" >
+                  <select name="item_size_select" id="size2" class = "item_select_m i_select" >
                     <option value="XS">XS</option>
                     <option value="S">S</option>
                     <option value="M">M</option>
@@ -113,8 +113,8 @@
                 <p class = "item_text line1" id = "p5"><b>Shoes</b></p><p id="p6" class = "item_text line2">Fabric Shoes with grey sqaures</p>
                 <div class = "description"  id = "description3"> 
                   <label for = "qnty3">Quantity</label>
-                  <select name = "item_quantity_select" id = "qnty3" class = "item_select">
-                    <option value = "1">1</option>
+                  <select name = "item_quantity_select" id = "qnty3" class = "item_select i_select">
+                    <option value = "1" >1</option>
                     <option value = "2">2</option>
                     <option value = "3">3</option>
                     <option value = "4">4</option>
@@ -126,7 +126,7 @@
                     <option value = "10">10</option>
                   </select>&nbsp;
                   <label for = "size3">Size</label>
-                  <select name="item_size_select" id="size3" class = "item_select" >
+                  <select name="item_size_select" id="size3" class = "item_select_m i_select" >
                     <option value="XS">XS</option>
                     <option value="S">S</option>
                     <option value="M">M</option>
@@ -259,10 +259,17 @@
       <p>Additional Requests</p>
       <textarea id = "additional_info" rows="10" cols="60" placeholder = "Type here.."></textarea></div>
       </div><hr class = "item_hr">
-      <input type="submit" value="Order Now" id = "submit_btn">
+      <input type="submit" value="Order Now" id = "submit_btn" onclick ="Passvalues();"/>
           </form>
         </div>
       </div>
     </div>
   </body>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      formValidations.init();
+    });
+  </script>
 </html>
+
+
